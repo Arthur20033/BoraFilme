@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <title>BoraTuco — Posters</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="brand">
+        <h1>BoraTuco</h1>
+    </div>
+    <div class="sponsors">
+        <a href="https://widget.livepix.gg/embed/eda0a416-e3d1-4f38-9b0b-ea5a7aface4a">Patrocínio</a>:
+        <b>R$15</b> (filmes) • <b>R$10</b> (séries / animes / desenhos)
+    </div>
+</header>
+
+<!-- BANNER DE BOAS-VINDAS -->
+<div class="welcome-banner">
+    <h2>🎬 BEM-VINDO AO BORATUCO! 🎬</h2>
+    <p>Aqui você encontra <strong>filmes, séries, animes e desenhos</strong> com patrocínio super acessível:</p>
+    <p><strong>R$15</strong> qualquer filme • <strong>R$10</strong> por temporada/episódio</p>
+    <a href="https://livepix.gg/tucoreage" target="_blank" class="pix-btn">
+        💸 APOIE PELO PIX AGORA!
+    </a>
+</div>
+<!-- FIM DO BANNER -->
+
+<main>
+    <aside class="sidebar">
+        <h2>Categorias</h2>
+        <div class="category-list">
+            <button class="category-btn active" data-category="all">Todas</button>
+            <button class="category-btn" data-category="Ação">Ação</button>
+            <button class="category-btn" data-category="Aventura">Aventura</button>
+            <button class="category-btn" data-category="Comédia">Comédia</button>
+            <button class="category-btn" data-category="Animação">Animação</button>
+            <button class="category-btn" data-category="Terror">Terror</button>
+            <button class="category-btn" data-category="Drama">Drama</button>
+            <button class="category-btn" data-category="Nacional">Nacional</button>
+            <button class="category-btn" data-category="Suspense">Suspense</button>
+            <button class="category-btn" data-category="Ficção">Ficção</button>
+            <button class="category-btn" data-category="História">História</button>
+            <button class="category-btn" data-category="Biografia">Biografia</button>
+            <button class="category-btn" data-category="Crime">Crime</button>
+            <button class="category-btn" data-category="Séries">Séries</button>
+            <button class="category-btn" data-category="Animes">Animes</button>
+            <button class="category-btn" data-category="Desenhos">Desenhos</button>
+        </div>
+    </aside>
+
+    <div class="content">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Pesquisar por título...">
+        </div>
+        <section class="grid" id="grid"></section>
+        <div class="pagination" id="pagination"></div>
+        <div class="page-jump" id="pageJump"></div>
+        <div class="preview" id="preview"></div>
+    </div>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
